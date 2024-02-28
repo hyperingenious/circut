@@ -60,7 +60,8 @@ export default function HomeCarousel() {
         </Carousel.Slide>
     ));
 
-    return (<>
+    return (
+    <>
         <Stack my={'xl'} w={'100%'} maw={1100} mx={'auto'}>
             <Stack gap={0}>
                 <Title mb={0} order={2} className={classes.title} ta="center" mt="sm">
